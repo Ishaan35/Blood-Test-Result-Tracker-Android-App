@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/newRecordBTN"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button_1"
+        android:text="Create New Record"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/savedRecordBTN"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button_2"
+        android:text="View Saved Records"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newRecordBTN" />
+
+    <Button
+        android:id="@+id/Guide"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button_3"
+        android:text="Guide"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/savedRecordBTN" />
+
+    <Button
+        android:id="@+id/CompareBTN"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button_4"
+        android:text="Compare"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Guide" />
+
+    <Button
+        android:id="@+id/quizBTN"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_button_5"
+        android:text="Health Quiz"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CompareBTN" />
+</androidx.constraintlayout.widget.ConstraintLayout>

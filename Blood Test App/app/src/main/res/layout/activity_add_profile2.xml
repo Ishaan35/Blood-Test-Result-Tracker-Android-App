@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProfile">
+
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button_3"
+        android:text="Create Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/female1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/female1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Age" />
+
+    <Button
+        android:id="@+id/male1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/male1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female1"
+        app:layout_constraintStart_toEndOf="@+id/female1" />
+
+    <Button
+        android:id="@+id/female2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male1"
+        app:layout_constraintStart_toEndOf="@+id/male1" />
+
+    <Button
+        android:id="@+id/male2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/male2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female2"
+        app:layout_constraintStart_toEndOf="@+id/female2" />
+
+    <Button
+        android:id="@+id/female3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male2"
+        app:layout_constraintStart_toEndOf="@+id/male2" />
+
+    <Button
+        android:id="@+id/male3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/male3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/female1" />
+
+    <Button
+        android:id="@+id/female4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male3"
+        app:layout_constraintStart_toEndOf="@+id/male3" />
+
+    <Button
+        android:id="@+id/male4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/male4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female4"
+        app:layout_constraintStart_toEndOf="@+id/female4" />
+
+    <Button
+        android:id="@+id/female5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male4"
+        app:layout_constraintStart_toEndOf="@+id/male4" />
+
+    <Button
+        android:id="@+id/male5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/male5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female5"
+        app:layout_constraintStart_toEndOf="@+id/female5" />
+
+    <Button
+        android:id="@+id/female6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/female6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/male3" />
+
+    <Button
+        android:id="@+id/male6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/male6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female6"
+        app:layout_constraintStart_toEndOf="@+id/female6" />
+
+    <Button
+        android:id="@+id/female7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female7"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male6"
+        app:layout_constraintStart_toEndOf="@+id/male6" />
+
+    <Button
+        android:id="@+id/male7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/male7"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female7"
+        app:layout_constraintStart_toEndOf="@+id/female7" />
+
+    <Button
+        android:id="@+id/female8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female8"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male7"
+        app:layout_constraintStart_toEndOf="@+id/male7" />
+
+    <Button
+        android:id="@+id/male8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/male8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/female6" />
+
+    <Button
+        android:id="@+id/female9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female9"
+        app:layout_constraintBaseline_toBaselineOf="@+id/male8"
+        app:layout_constraintStart_toEndOf="@+id/male8" />
+
+    <Button
+        android:id="@+id/female10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female10"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female9"
+        app:layout_constraintStart_toEndOf="@+id/female9" />
+
+    <Button
+        android:id="@+id/female11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female11"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female10"
+        app:layout_constraintStart_toEndOf="@+id/female10" />
+
+    <Button
+        android:id="@+id/female12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female12"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female11"
+        app:layout_constraintStart_toEndOf="@+id/female11" />
+
+    <Button
+        android:id="@+id/female13"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/female13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/male8" />
+
+    <Button
+        android:id="@+id/female14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female15"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female13"
+        app:layout_constraintStart_toEndOf="@+id/female13" />
+
+    <Button
+        android:id="@+id/female15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female16"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female14"
+        app:layout_constraintStart_toEndOf="@+id/female14" />
+
+    <Button
+        android:id="@+id/female16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female17"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female15"
+        app:layout_constraintStart_toEndOf="@+id/female15" />
+
+    <Button
+        android:id="@+id/female17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/female18"
+        app:layout_constraintBaseline_toBaselineOf="@+id/female16"
+        app:layout_constraintStart_toEndOf="@+id/female16" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name:"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Age:"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Name" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Height (m)"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Name" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Weight (kg)"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Age"
+        app:layout_constraintStart_toEndOf="@+id/Age" />
+
+    <TextView
+        android:id="@+id/BMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Your BMI calculated here"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/female2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Age" />
+</androidx.constraintlayout.widget.ConstraintLayout>
