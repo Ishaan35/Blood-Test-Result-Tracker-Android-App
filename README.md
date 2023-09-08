@@ -1,5 +1,5 @@
 # Blood-Test-Result-Tracker-Android-App
-This is a bloodwork-tracking mobile app aimed to allow users to easily track their blood test data for future reference, spot trends, and take action. 
+This is a bloodwork-tracking mobile app aimed to allow users to easily track their blood test data for future reference, spot trends, and take action. There is also a guide that explains the meaning and normal ranges for all biomarkers.
 
 ## Built With
 
